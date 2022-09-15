@@ -26,11 +26,14 @@ input, textarea, select {
 }
 body{
     background: rgb(70, 142, 236);
+    max-width: 700px;
+    height: 60vh;
+    margin: 0 auto;
+    padding: 2%;
     font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 60vh;
 }
 header, footer {
     color: white;
