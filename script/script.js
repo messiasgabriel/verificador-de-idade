@@ -13,7 +13,14 @@ function verificar(){
         img.setAttribute('id', 'foto')
 
         // Método com menos IF's
-        if(fsex[0].checked)genero = 'homem'; else genero = 'mulher';
+        if(fsex[0].checked){
+            genero = 'homem' 
+            document.body.style.background = 'rgb(70, 142, 236)'
+        }
+        else {
+            genero = 'mulher'
+            document.body.style.background = 'rgb(187, 87, 179)'
+        }
         if(idade <= 10)img.setAttribute('src',`img/${genero}/foto-bebe.png`)
         else if(idade <= 21) img.setAttribute('src', `img/${genero}/foto-jovem.png`)
         else if(idade <= 50) img.setAttribute('src', `img/${genero}/foto-adulto.png`)

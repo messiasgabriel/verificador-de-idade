@@ -25,7 +25,7 @@ input, textarea, select {
     cursor: pointer;
 }
 body{
-    background: rgb(70, 142, 236);
+    background: rgb(63, 55, 66);
     max-width: 700px;
     height: 60vh;
     margin: 0 auto;
@@ -53,7 +53,7 @@ footer{
 .button{
     border: none;
     border-radius: 10px;
-    background-color: rgb(70, 142, 236);
+    background-color: rgba(94, 92, 95, 0.541);
     color: white;
     font-size: 18px;
     padding: 2%;
@@ -64,13 +64,10 @@ footer{
     border-radius: 10px;
     height: 25px;
     width: 40%;
-    background: rgb(70, 142, 236);
+    background: rgba(94, 92, 95, 0.541);
     color: white;
     font-size: 16px;
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
     text-align: center;
-}
-@media screen and (max-width: 500px){
-    
 }
