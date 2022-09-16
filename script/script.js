@@ -15,10 +15,18 @@ function verificar(){
         // Método com menos IF's
         if(fsex[0].checked){
             genero = 'homem' 
+            document.querySelector('#button')
+            button.style.background = 'rgb(70, 142, 236)'
+            document.querySelector('#txtano')
+            txtano.style.background = 'rgb(70, 142, 236)'
             document.body.style.background = 'rgb(70, 142, 236)'
         }
         else {
             genero = 'mulher'
+            document.querySelector('#button')
+            button.style.background = 'rgb(187, 87, 179)'
+            document.querySelector('#txtano')
+            txtano.style.background = 'rgb(187, 87, 179)'
             document.body.style.background = 'rgb(187, 87, 179)'
         }
         if(idade <= 10)img.setAttribute('src',`img/${genero}/foto-bebe.png`)
